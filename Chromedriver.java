@@ -14,7 +14,7 @@ public class Chromedriver {
 		System.setProperty("webdriver.chrome.driver","/Users/anwarulhaqmohammed/Desktop/chromedriver");
 		
 		
-		
+	
 		driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.id("email")).sendKeys("abc@gmail.com");
